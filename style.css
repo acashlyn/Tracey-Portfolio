@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #F2AFEF;
-    --second-bg-color: #7360DF;
-    --text-color: #33186B;
-    --main-color: #C499F3;
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
 }
 
 html {
@@ -24,8 +24,7 @@ html {
 }
 
 body {
-   background: rgb(238,174,202);
-   background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(171,148,233,1) 100%);
+    background: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -86,7 +85,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/BGG.jpg') no-repeat;
+    background: url('BGG.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
