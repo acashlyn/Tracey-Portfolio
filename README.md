@@ -1,2 +1,0 @@
-# Tracey-Portfolio
-Midterm Examination
